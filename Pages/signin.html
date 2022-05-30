@@ -25,16 +25,16 @@
         <h3 class="brand-name">Filmy</h3>
         <h3 class="brand-name">Hub</h3>
         </a>
-        <a href="./search.html"><i class="fa fa-search search"><span>Search Movies</span></i></a>
+<!--        <a href="./search.html"><i class="fa fa-search search"><span>Search Movies</span></i></a>-->
         <ul class="links">
             <li><a href="../index.html" ><i class="fa fa-home"></i>Home</a></li>
             <hr noshade="">
-            <li><a href="./movie.html"><i class="fa fa-film"></i>Movies</a></li>
+<!--            <li><a href="./movie.html"><i class="fa fa-film"></i>Movies</a></li>-->
             <hr noshade="">
             <li><a href="#"><i class="fa fa-rss"></i>Blog</a></li>
             <hr noshade="" />
             <li>
-            <a href="./payment.html"><i class="fa fa-shopping-cart"></i>Payment</a>
+<!--            <a href="./payment.html"><i class="fa fa-shopping-cart"></i>Payment</a>-->
             </li>
             <hr noshade="">
             <hr noshade="">
@@ -251,13 +251,13 @@
 			// ...
 			console.log("signed in successfully");
               alert("Sign in Successfully");
-              window.location.assign('../index.html');
+              window.location.assign('./movie.html');
 		  })
 		  .catch((error) => {
 			const errorCode = error.code;
 			const errorMessage = error.message;
 			console.log=(errorCode + errorMessage);
-            alert("Incorrect Password");
+            alert("Incorrect Password OR New User");
 		  });
 
   });
