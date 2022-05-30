@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdn google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <!-- cdn font-awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- cdn bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="shortcut icon" href="../images/brand-logo-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/admin-signin.css">
+    <title>MovieQue</title>
+</head>
+<body>
+    <nav class="header">
+        <i class="fa fa-bars bars" onclick=menu()></i>
+        <a href="../index.html">
+        <img class="brand-logo" src="../images/logo2.jpg" alt="brand-logo">
+        <h3 class="brand-name">Filmy</h3>
+        <h3 class="brand-name">Hub</h3>
+        </a>
+        <a href="./search.html"><i class="fa fa-search search"><span>Search Movies</span></i></a>
+        <ul class="links">
+            <li><a href="../index.html" ><i class="fa fa-home"></i>Home</a></li>
+            <hr noshade="">
+            <li><a href="./movie.html"><i class="fa fa-film"></i>Movies</a></li>
+            <hr noshade="">
+            <li><a href="#"><i class="fa fa-rss"></i>Blog</a></li>
+            <hr noshade="" />
+            <li>
+            <a href="./payment.html"><i class="fa fa-shopping-cart"></i>Payment</a>
+            </li>
+            <hr noshade="">
+            <hr noshade="">
+            <li><a href="#"><i class="fa fa-sign-in"></i>Login / Registration</a></li>
+        </ul>
+    </nav>
+    <script src="../javascript/header.js"></script>
+    <main>
+        <div class="image">
+            <img src="../images/cameraman.png" alt="">
+        </div>
+        <!-- <div class="welcome"></div>
+        <div class="admin-form">
+            <h2>Admin Login</h2>
+            <form action="" method="post">
+                <div class="input">
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="userName" placeholder="User Name" autocomplete="off" spellcheck="false" required id="username">
+                </div>
+                <br>
+                <div class="input">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" autocomplete="off" required>
+                </div>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+            <p><a href="#">Forgot Password?</a></p>
+        </div> -->
+
+
+<div class="container" id="container">
+<div class="form-container sign-up-container">
+
+<form action="">
+	<h1>Create Account</h1>
+	<div class="social-container">
+		<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+		<a href="#" class="social"><i class="fab fa-google-g"></i></a>
+		<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+	</div>
+	<span>or use your email for registration</span>
+	<input type="text" name="name" placeholder="Name">
+	<input type="email" name="email" placeholder="Email" id="email">
+	<input type="password" name="password" placeholder="Password" id="pass">
+	<button id="signup">SignUp</button>
+</form>
+</div>
+<div class="form-container sign-in-container">
+	<form action="../index.html">
+		<h1>Sign In</h1>
+		<div class="social-container">
+		<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+		<a href="#" class="social"><i class="fab fa-google"></i></a>
+		<a href="#" class="social"><i class="fab fa-linkedin"></i></a>
+	</div>
+	<span>or use your account</span>
+	<input type="email" name="email" placeholder="Email" id="emaill">
+	<input type="password" name="password" placeholder="Password" id="passs">
+	<a href="#">Forgot Your Password</a>
+
+	<!-- <button id="signinn">SignIn</button> -->
+    <form>
+        <input type="button" id="signinn" onclick="window.location.href='file:///C:/Users/Nikhil/Desktop/MovieQue_Mini_Project-main1/Pages/movie.html';" value="SignIn" />
+      </form>
+
+	</form>
+</div>
+<div class="overlay-container">
+	<div class="overlay">
+		<div class="overlay-panel overlay-left">
+			<h1>Welcome Back!</h1>
+			<p>To keep connected with us please login with your personal info</p>
+			<button class="ghost" id="signIn">Sign In</button>
+		</div>
+		<div class="overlay-panel overlay-right">
+			<h1>Hello, Friend!</h1>
+			<p>Enter your details and start journey with us</p>
+			<button class="ghost" id="signUp">Sign Up</button>
+		</div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	const signUpButton = document.getElementById('signUp');
+	const signInButton = document.getElementById('signIn');
+	const container = document.getElementById('container');
+
+	signUpButton.addEventListener('click', () => {
+		container.classList.add("right-panel-active");
+	});
+	signInButton.addEventListener('click', () => {
+		container.classList.remove("right-panel-active");
+	});
+</script> -->
+
+</body>
+</html>
+    </main>
+    <footer>
+        <div class="top">
+            <div class="left-side">
+                <ul class="contact">
+                    <li><a href="#"><i class="fa fa-map-marker"></i>SCO-75,Delhi, India</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i>+7983370937</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i>support@movieque.com</a></li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <div class="about">
+                    <h4>About the website</h4>
+                    <p>FilmyHub is a streaming service site that offers a wide variety of award-winning movies and more, on thousands of internet-connected devices. You can watch as much as you want - all for free.</p>
+                </div>
+                <div class="social-container">
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p><a href="#">&copy 2021 Copyright: Movieque.com</a></p>
+        </div>
+    </footer>
+    <script src="../javascript/login.js"></script>
+    <!-- bootstrap js strat -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--bootstrap js end-->
+	
+	
+	<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+  import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+      apiKey: "AIzaSyAOhUA7TsyNVeN1IC-JlXGgrny8GBpKG_Y",
+      authDomain: "mini-project-ii-582c0.firebaseapp.com",
+      projectId: "mini-project-ii-582c0",
+      storageBucket: "mini-project-ii-582c0.appspot.com",
+      messagingSenderId: "485019380013",
+      appId: "1:485019380013:web:4e62808ffa8c46ab6ecba4"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  
+  // script for signingUp th user
+  document.getElementById("signup").addEventListener('click', function(){
+	  const email = document.getElementById("email").value
+	  const password = document.getElementById("pass").value
+	  
+	  createUserWithEmailAndPassword(auth, email, password)
+		  .then((userCredential) => {
+			// Signed in 
+			const user = userCredential.user;
+			
+			console.log("User created")
+              alert("Registration successfully!!")
+		  })
+		  .catch((error) => {
+			const errorCode = error.code;
+			const errorMessage = error.message;
+			// ..
+			console.log(errorCode + errorMessage);
+		  });
+
+	  
+  })
+  
+</script>
+
+<-- ===================================== -->
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+  import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+      apiKey: "AIzaSyAOhUA7TsyNVeN1IC-JlXGgrny8GBpKG_Y",
+      authDomain: "mini-project-ii-582c0.firebaseapp.com",
+      projectId: "mini-project-ii-582c0",
+      storageBucket: "mini-project-ii-582c0.appspot.com",
+      messagingSenderId: "485019380013",
+      appId: "1:485019380013:web:4e62808ffa8c46ab6ecba4"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
+
+  document.getElementById("signinn").addEventListener('click', function(){
+	  const email = document.getElementById("emaill").value
+	  const password = document.getElementById("passs").value
+
+	  signInWithEmailAndPassword(auth, email, password)
+		  .then((userCredential) => {
+			// Signed in
+			const user = userCredential.user;
+			// ...
+			console.log("signed in successfully");
+              alert("Sign in Successfully");
+              window.location.assign('../index.html');
+		  })
+		  .catch((error) => {
+			const errorCode = error.code;
+			const errorMessage = error.message;
+			console.log=(errorCode + errorMessage);
+            alert("Incorrect Password");
+		  });
+
+  });
+  
+</script>
+
+</body>
+</html>
