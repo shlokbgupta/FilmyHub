@@ -8,9 +8,9 @@ An Online Streaming Site FilmyHub is a streaming service site that offers a wide
 >* Implementation: Google firebase Auth Google firebase SDK Google firebase APIs 
 >* Email authentication services 
 >* Google signing authentication services.
+>-------------------------------------------
 
 >* **Project Members:**<br>
->--------------------------
 > _Shlok B. Gupta_ (Repo Owner)<br>
 > _Nikhil Srivastava_ - Front end developer [Github profile](https://github.com/Nikhil-srivastava1508)<br>
 > _Devarsh Raj_ - Front end developer [Github profile](https://github.com/Devarsh-19)
